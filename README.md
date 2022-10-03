@@ -1,0 +1,15 @@
+# SmartGate
+# BackGround of SmartGate
+spatial metabolomics by introducing an iterative graph attention auto-encoder method SmartGate
+For imageing mass specturm(IMS) datasets, SmartGate could get latent low dimension peak features by Graph-attention autoencoder which help us achieve automic peak picking  iteratively to find the marker ions.
+# The workflow of SmartGate
+![image](https://github.com/XiaoKaixuan12333/SmartGate/blob/master/SmartGate.png)
+# Requirments
+scanpy  
+STAGATE  
+pandas  
+h5py  
+# Citation
+
+# Content
+zsh@amss.ac.cn
