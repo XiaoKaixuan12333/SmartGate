@@ -12,6 +12,7 @@ import scanpy as sc
 import matplotlib.pyplot as plt
 import os
 import sys
+
 import STAGATE
 from itertools import compress
 from termcolor import colored
@@ -152,7 +153,7 @@ def automatic_3D_peak_picking(adata,ol_mass,section_order,num_marker=1300,
             sc.tl.rank_genes_groups(adata_2, cluster_method, method=rank_method)
         else:
 
-            print("------begin to automic peak picking-----")  
+            print("------begin to automatic peak picking-----")  
 
             pp,l=iter_feature(adata,num_marker,k)
             ll=[]
