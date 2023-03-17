@@ -3,5 +3,7 @@ msiPL/*
 multicellar_datasets/*
 SSC_SASA_data/*
 *.csv
+tutrial_subcellar/*
+draw.py
 Index_caculation/*
 !Index_caculation/calculate_Hybrid_index.py
